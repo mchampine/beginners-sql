@@ -5,10 +5,10 @@ The database used is [SQLite](https://sqlite.org/index.html), which simplifies i
 
 The goal of these examples is to serve as a quick reference for using some of the more popular options for SQL in Clojure.
 
+* [next-jdbc](https://github.com/seancorfield/next-jdbc)
 * [JJDBC](https://github.com/mchampine/beginners-sql/tree/master/jjdbc) uses [clojure.java.jdbc](https://github.com/clojure/java.jdbc)
 
 # TBD
-* [next-jdbc](https://github.com/seancorfield/next-jdbc)
 * [Honey SQL](https://github.com/seancorfield/honeysql)
 * [HugSQL](https://github.com/layerware/hugsql) | [hugsql project site](https://www.hugsql.org/)
 * [Korma](https://github.com/korma/Korma) | [sqlkorma project site](https://sqlkorma.com)

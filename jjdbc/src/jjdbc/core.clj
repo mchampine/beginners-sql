@@ -249,15 +249,6 @@ WHERE author IN (SELECT author
 
 ;; 8. Feedback
 
-;; SELECT members.firstname || ' ' || members.lastname AS "Full Name"
-;; FROM borrowings
-;; JOIN members
-;; ON members.memberid=borrowings.memberid
-;; JOIN books
-;; ON books.bookid=borrowings.bookid
-;; WHERE borrowings.bookid IN (SELECT bookid FROM books WHERE stock>  (SELECT avg(stock) FROM books)  )
-;; GROUP BY members.firstname, members.lastname;
-
 (jdbc/query db
   "SELECT members.firstname || ' ' || members.lastname AS 'Full Name'
     FROM borrowings
