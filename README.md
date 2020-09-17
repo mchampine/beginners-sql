@@ -10,5 +10,5 @@ The goal of these examples is to serve as a quick reference for using some of th
 # TBD
 * [next-jdbc](https://github.com/seancorfield/next-jdbc)
 * [Honey SQL](https://github.com/seancorfield/honeysql)
-* [HugSQL](https://github.com/layerware/hugsql) [project site](https://www.hugsql.org/)
-* [Korma](https://github.com/korma/Korma) [project site](https://sqlkorma.com)
+* [HugSQL](https://github.com/layerware/hugsql) | [hugsql project site](https://www.hugsql.org/)
+* [Korma](https://github.com/korma/Korma) | [sqlkorma project site](https://sqlkorma.com)
