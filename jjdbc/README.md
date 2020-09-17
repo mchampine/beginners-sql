@@ -1,14 +1,15 @@
 # jjdbc
 
-A Clojure library designed to ... well, that part is up to you.
+Stands for Java JDBC
+
+This directory is a leiningen project that contains the clojure.java.jdbc version of examples for [A Beginner's Guide to SQL](https://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/)
 
 ## Usage
 
-FIXME
+Clone the repo and try out the queries in [src/jdbc/core.clj](https://github.com/mchampine/beginners-sql/blob/master/jjdbc/src/jjdbc/core.clj)
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2020
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License either version 1.0 or (at your option) any later version.
