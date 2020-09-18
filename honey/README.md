@@ -6,7 +6,7 @@ db/database.db is a SQLite Database populated with all the data needed to run th
 
 ## Usage
 
-Clone the repo and try out the queries in [src/honey/src/core.clj](https://github.com/mchampine/beginners-sql/blob/master/honey/src/honey/core.clj)
+Clone the repo and try out the queries in [src/honey/core.clj](https://github.com/mchampine/beginners-sql/blob/master/honey/src/honey/core.clj)
 
 ## License
 
