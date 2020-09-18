@@ -7,7 +7,7 @@ The goal of these examples is to serve as a quick reference for using some popul
 
 * [nextjdbc](https://github.com/mchampine/beginners-sql/tree/master/nextjdbc) uses [next-jdbc](https://github.com/seancorfield/next-jdbc)
 * [jjdbc](https://github.com/mchampine/beginners-sql/tree/master/jjdbc) uses [clojure.java.jdbc](https://github.com/clojure/java.jdbc)
-** [honey](https://github.com/mchampine/beginners-sql/tree/master/honey) uses [Honey SQL](https://github.com/seancorfield/honeysql)
+* [honey](https://github.com/mchampine/beginners-sql/tree/master/honey) uses [Honey SQL](https://github.com/seancorfield/honeysql)
 
 # TBD
 * [HugSQL](https://github.com/layerware/hugsql) | [hugsql project site](https://www.hugsql.org/)
