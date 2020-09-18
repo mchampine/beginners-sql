@@ -8,7 +8,7 @@ db/sqlitedb.db is a SQLite Database populated with all the data needed to run th
 
 ## Usage
 
-Clone the repo and try out the queries in [src/jdbc/core.clj](https://github.com/mchampine/beginners-sql/blob/master/jjdbc/src/jjdbc/core.clj)
+Clone the repo and try out the queries in [src/jjdbc/core.clj](https://github.com/mchampine/beginners-sql/blob/master/jjdbc/src/jjdbc/core.clj)
 
 ## License
 
