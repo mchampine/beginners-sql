@@ -213,5 +213,3 @@ WHERE author IN (SELECT author
 ;; => [{:Full Name "Lida Tyler"}]
 
 ;; end
-
-

@@ -20,7 +20,7 @@
 (defdb prod db)
 ;; {:pool {:classname "org.sqlite.JDBC", :subprotocol "sqlite", :subname "db/database.db"}, :options {:naming {:keys #function[clojure.core/identity], :fields #function[clojure.core/identity]}, :delimiters ["\"" "\""], :alias-delimiter " AS ", :subprotocol "sqlite"}}
 
-;; See the DB creation and examples in /Users/mchampin/clojure/boston-clojure/dbsql/jjdbc/src/jjdbc
+;; See the DB creation and examples in https://github.com/mchampine/beginners-sql/blob/master/jjdbc/src/jjdbc
 ;; query examples based on http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
 
 ;; smoke test the database using jdbc

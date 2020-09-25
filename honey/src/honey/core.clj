@@ -1,7 +1,8 @@
 (ns honey.core
   (:require [clojure.java.jdbc :as jdbc]
             [honeysql.core :as sql]
-            [honeysql.helpers :as helpers :refer [select from where join sset]]))
+            [honeysql.helpers :refer :all :as helpers]
+            [honey.util :as util]))
 
 (def db
   {:classname   "org.sqlite.JDBC"
@@ -9,9 +10,9 @@
    :subname     "db/database.db"
    })
 
-;; See the DB creation and examples in https://github.com/mchampine/beginners-sql/tree/master/jjdbc
-;; query examples based on http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/
-
+;; use the provided database, db/database.db, or 
+;; (util/mkdb db)   ;; create and populate books example database
+;; (util/wipedb db) ;; drop all tables in books example database
 
 ;; smoke test the database
 (jdbc/query db "SELECT bookid AS id, title FROM books WHERE author='Dan Brown'")
@@ -42,7 +43,9 @@
 
 
 
-;;;;;;;;;;;;; Translation of "THE BEGINNERS GUIDE TO SQL QUERIES" into HoneySQL ;;;;;;;;;;;;;;;;;;;;
+;;;;;;; Translation of "THE BEGINNERS GUIDE TO SQL QUERIES" into HoneySQL ;;;;;;
+;;;;  http://www.sohamkamani.com/blog/2016/07/07/a-beginners-guide-to-sql/  ;;;;
+
 
 ;; dan brown books
 (format-and-query
