@@ -3,7 +3,7 @@ SQL Exercises from [A Beginner's Guide to SQL](https://www.sohamkamani.com/blog/
 
 The database used is [SQLite](https://sqlite.org/index.html) (version [org.xerial/sqlite-jdbc "3.25.2"]), which simplifies install and configuration.
 
-The goal of these examples is to serve as a quick reference for using some popular options for SQL in Clojure.
+These examples serve as a quick reference for some popular options for SQL in Clojure.
 
 * [nextjdbc](https://github.com/mchampine/beginners-sql/tree/master/nextjdbc) uses [next-jdbc](https://github.com/seancorfield/next-jdbc) version [seancorfield/next.jdbc "1.1.588"]
 * [jjdbc](https://github.com/mchampine/beginners-sql/tree/master/jjdbc) uses [clojure.java.jdbc](https://github.com/clojure/java.jdbc) version [org.clojure/java.jdbc "0.7.11"]
